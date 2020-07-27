@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item/>
+        <dependency_fields>hole-22123,play_result-45539,player.system_user.photo-13144,player-32753</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","studio_template_field_id":"E1","Id":22123,"Margin":{},"CellId":"hole","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"regular","Size":18}},{"Type":"ViewGroup","Margin":{"Top":8},"Id":12260,"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Id":45538,"Type":"Text","studio_ignore":true,"Margin":{"Left":0},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":10,"Name":"Font Awesome 5 Pro Regular"}},{"Type":"Text","studio_template_field_id":"E2","Margin":{"Left":4},"CellId":"play_result","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"bold","Size":13},"Id":45539}]},{"Type":"ViewGroup","Id":12261,"Margin":{"Top":17},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Image","studio_template_field_id":"E3","CornerRadius":12,"Height":24,"Width":24,"CellId":"player.system_user.photo","Scaling":"Fill","Id":13144},{"Type":"Text","studio_template_field_id":"E4","Margin":{"Left":8},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"regular","Size":13},"Id":32753,"CellId":"player"}]}],"Id":28090,"studio_card_id":"106d10840f000010c46f5cbac4767ef9"}</item_view_json>
+        <name>Hole results for Play Header Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:42:14</sys_created_on>
+        <sys_id>6638bd832f8a98100d4218acf699b651</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Hole results for Play Header Item View</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_item_view_6638bd832f8a98100d4218acf699b651</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-22 07:18:30</sys_updated_on>
+        <table>x_44900_golf_journ_hole_results</table>
+        <ui_styles>24d06a172f46d8100d4218acf699b6a3,18c02a172f46d8100d4218acf699b65a</ui_styles>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=6638bd832f8a98100d4218acf699b651"/>
+</record_update>

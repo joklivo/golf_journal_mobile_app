@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Play results)">942f6dcb2f4a98100d4218acf699b63d</button>
+        <item_parameter display_value="Play results hcp_after">142f6dcb2f4a98100d4218acf699b620</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:29</sys_created_on>
+        <sys_id>942f6dcb2f4a98100d4218acf699b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>142f6dcb2f4a98100d4218acf699b620</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_942f6dcb2f4a98100d4218acf699b65c</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:02:29</sys_updated_on>
+        <ui_parameter display_value="Handicap after">582f6dcb2f4a98100d4218acf699b642</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (Club)">471fa9cb2f4a98100d4218acf699b674</button>
+        <item_parameter display_value="Club website">8f1fa9cb2f4a98100d4218acf699b671</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:24</sys_created_on>
+        <sys_id>4f1fa9cb2f4a98100d4218acf699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8f1fa9cb2f4a98100d4218acf699b671</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4f1fa9cb2f4a98100d4218acf699b687</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:02:24</sys_updated_on>
+        <ui_parameter display_value="Web">031fa9cb2f4a98100d4218acf699b684</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Edit Button (Hole results)">731fe9cb2f4a98100d4218acf699b6fb</button>
+        <item_parameter display_value="Hole results ntb">fb1fe9cb2f4a98100d4218acf699b6f2</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:27</sys_created_on>
+        <sys_id>371f2dcb2f4a98100d4218acf699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fb1fe9cb2f4a98100d4218acf699b6f2</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_371f2dcb2f4a98100d4218acf699b62f</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:02:27</sys_updated_on>
+        <ui_parameter display_value="Net double bogey">f71f2dcb2f4a98100d4218acf699b609</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_action_param_map_371f2dcb2f4a98100d4218acf699b62f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Edit Button (Hole results)">731fe9cb2f4a98100d4218acf699b6fb</button><item_parameter display_value="Hole results ntb">fb1fe9cb2f4a98100d4218acf699b6f2</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-21 09:02:27</sys_created_on><sys_id>371f2dcb2f4a98100d4218acf699b62f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>fb1fe9cb2f4a98100d4218acf699b6f2</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_action_param_map_371f2dcb2f4a98100d4218acf699b62f</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-21 09:02:27</sys_updated_on><ui_parameter display_value="Net double bogey">f71f2dcb2f4a98100d4218acf699b609</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>-1363620168</payload_hash>
+        <record_name>fb1fe9cb2f4a98100d4218acf699b6f2</record_name>
+        <reverted_from/>
+        <source>6b9e21cb2f4a98100d4218acf699b650</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:41</sys_created_on>
+        <sys_id>d32fe10f2f4a98100d4218acf699b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173709c5a5b0000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:02:41</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>5f2fe10ff04a9810e54a5fee432a8a00</update_guid>
+        <update_guid_history>5f2fe10ff04a9810e54a5fee432a8a00:-1363620168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 13:45:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>1441360a004041e28829835bbfdf4164</sys_id>
+        <sys_metadata>371f2dcb2f4a98100d4218acf699b62f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fb1fe9cb2f4a98100d4218acf699b6f2</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_371f2dcb2f4a98100d4218acf699b62f</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_371f2dcb2f4a98100d4218acf699b62f">d32fe10f2f4a98100d4218acf699b601</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 13:45:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

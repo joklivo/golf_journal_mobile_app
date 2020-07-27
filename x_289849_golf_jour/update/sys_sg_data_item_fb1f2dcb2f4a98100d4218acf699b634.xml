@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>script</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Golf Journal Mobile App Play</name>
+        <query_condition/>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+
+    var queryString = 'sys_idNOT IN';
+
+    var playGR = new GlideRecord('x_44900_golf_journ_play');
+        playGR.query();
+
+    var idArr = [];
+
+    while (playGR.next()) {
+
+        playID = playGR.getUniqueValue();
+
+        if (checkIfPlayIsNotCompletedAlready(playID) == true) {
+            idArr.push(playID);
+        }
+        
+    }
+
+    var idString = idArr.join(',');
+
+    queryString += idString;
+
+    return queryString;
+
+})(input);
+
+function checkIfPlayIsNotCompletedAlready(playID) {
+        var playResultGR = new GlideRecord('x_44900_golf_journ_play_results');
+            playResultGR.addQuery('player.system_user', gs.getUserID());
+            playResultGR.addQuery('play', playID);
+            playResultGR.addQuery('state','completed');
+            playResultGR.setLimit(1);
+            playResultGR.query();
+
+        if (!playResultGR.hasNext()) {
+            return false;
+        } else {
+            return true;
+        }
+}
+
+function getPlayer() {
+    var playerGR = new GlideRecord('x_44900_golf_journ_player');
+
+    if (playerGR.get('system_user'), gs.getUserID()) {
+        return playerGR.getUniqueValue();
+    }
+}]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:27</sys_created_on>
+        <sys_id>fb1f2dcb2f4a98100d4218acf699b634</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Golf Journal Mobile App Play</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_data_item_fb1f2dcb2f4a98100d4218acf699b634</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 20:15:37</sys_updated_on>
+        <table>x_44900_golf_journ_play</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb1f2dcb2f4a98100d4218acf699b634"/>
+</record_update>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
+    <sys_sg_button action="DELETE">
+        <acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label>
+        <allow_images_upload>false</allow_images_upload>
+        <auto_redirection>true</auto_redirection>
+        <button_table_field_name/>
+        <cancel_label/>
+        <condition/>
+        <condition_script/>
+        <condition_type>declarative</condition_type>
+        <confirm_label/>
+        <confirmation_message/>
+        <context>global</context>
+        <description/>
+        <destination_alp/>
+        <destination_screen display_value="Hole results for Play">affa81492fd2dc100d4218acf699b629</destination_screen>
+        <destination_type>screen</destination_type>
+        <external_browser>false</external_browser>
+        <failure_message/>
+        <field_name/>
+        <jump_to_previous>false</jump_to_previous>
+        <jump_to_screen>false</jump_to_screen>
+        <link_label/>
+        <link_url/>
+        <mail_address/>
+        <mail_content/>
+        <mail_subject/>
+        <name>Go to Holes</name>
+        <phone_number/>
+        <phone_type>cellular</phone_type>
+        <preconditions>none</preconditions>
+        <relative_url>false</relative_url>
+        <roles/>
+        <save_signature_before_action_execution>false</save_signature_before_action_execution>
+        <select_current_record>false</select_current_record>
+        <show_acknowledgement>false</show_acknowledgement>
+        <show_confirmation>false</show_confirmation>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
+        <show_signature>false</show_signature>
+        <sms/>
+        <success_message/>
+        <sys_class_name>sys_sg_button</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 11:34:17</sys_created_on>
+        <sys_id>226b41492fd2dc100d4218acf699b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Go to Holes</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_button_226b41492fd2dc100d4218acf699b6a4</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:34:17</sys_updated_on>
+        <table/>
+        <take_value_from_field>true</take_value_from_field>
+        <type>redirection</type>
+        <use_overlay>false</use_overlay>
+        <write_back_action_item/>
+    </sys_sg_button>
+    <sys_translated_text action="DELETE" query="documentkey=226b41492fd2dc100d4218acf699b6a4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_button_226b41492fd2dc100d4218acf699b6a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button"><sys_sg_button action="INSERT_OR_UPDATE"><acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label><allow_images_upload>false</allow_images_upload><auto_redirection>true</auto_redirection><button_table_field_name/><cancel_label/><condition/><condition_script/><condition_type>declarative</condition_type><confirm_label/><confirmation_message/><context>global</context><description/><destination_alp/><destination_screen display_value="Hole results for Play">affa81492fd2dc100d4218acf699b629</destination_screen><destination_type>screen</destination_type><external_browser>false</external_browser><failure_message/><field_name/><jump_to_previous>false</jump_to_previous><jump_to_screen>false</jump_to_screen><link_label/><link_url/><mail_address/><mail_content/><mail_subject/><name>Go to Holes</name><phone_number/><phone_type>cellular</phone_type><preconditions>none</preconditions><relative_url>false</relative_url><roles/><save_signature_before_action_execution>false</save_signature_before_action_execution><select_current_record>false</select_current_record><show_acknowledgement>false</show_acknowledgement><show_confirmation>false</show_confirmation><show_refresh_on_previous>false</show_refresh_on_previous><show_signature>false</show_signature><sms/><success_message/><sys_class_name>sys_sg_button</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-27 11:34:17</sys_created_on><sys_id>226b41492fd2dc100d4218acf699b6a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Go to Holes</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_button_226b41492fd2dc100d4218acf699b6a4</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-27 11:34:17</sys_updated_on><table/><take_value_from_field>true</take_value_from_field><type>redirection</type><use_overlay>false</use_overlay><write_back_action_item/></sys_sg_button><sys_translated_text action="delete_multiple" query="documentkey=226b41492fd2dc100d4218acf699b6a4"/></record_update>]]></payload>
+        <payload_hash>1712994535</payload_hash>
+        <record_name>Go to Holes</record_name>
+        <reverted_from/>
+        <source>6b9e21cb2f4a98100d4218acf699b650</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 11:34:17</sys_created_on>
+        <sys_id>aa6b41492fd2dc100d4218acf699b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173900d4d6d0000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:34:17</sys_updated_on>
+        <type>Function</type>
+        <update_guid>e26b4149b3d2dc109de55c23aee45ba6</update_guid>
+        <update_guid_history>e26b4149b3d2dc109de55c23aee45ba6:1712994535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 11:36:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button">sys_sg_button</sys_db_object>
+        <sys_id>08965d9ae8e5493080776170aa858c40</sys_id>
+        <sys_metadata>226b41492fd2dc100d4218acf699b6a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Go to Holes</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_button_226b41492fd2dc100d4218acf699b6a4</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_226b41492fd2dc100d4218acf699b6a4">aa6b41492fd2dc100d4218acf699b6a6</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:36:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

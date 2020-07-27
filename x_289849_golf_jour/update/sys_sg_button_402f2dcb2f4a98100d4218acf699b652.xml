@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
+    <sys_sg_button action="INSERT_OR_UPDATE">
+        <acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label>
+        <allow_images_upload>false</allow_images_upload>
+        <auto_redirection>false</auto_redirection>
+        <button_table_field_name/>
+        <cancel_label/>
+        <condition/>
+        <condition_script/>
+        <condition_type>declarative</condition_type>
+        <confirm_label/>
+        <confirmation_message/>
+        <context>global</context>
+        <description/>
+        <destination_alp/>
+        <destination_screen/>
+        <destination_type>screen</destination_type>
+        <external_browser>false</external_browser>
+        <failure_message/>
+        <field_name/>
+        <jump_to_previous>false</jump_to_previous>
+        <jump_to_screen>false</jump_to_screen>
+        <link_label/>
+        <link_url/>
+        <mail_address/>
+        <mail_content/>
+        <mail_subject/>
+        <name>New Button (Play)</name>
+        <phone_number/>
+        <phone_type>cellular</phone_type>
+        <preconditions>none</preconditions>
+        <relative_url>true</relative_url>
+        <roles/>
+        <save_signature_before_action_execution>false</save_signature_before_action_execution>
+        <select_current_record>false</select_current_record>
+        <show_acknowledgement>false</show_acknowledgement>
+        <show_confirmation>false</show_confirmation>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
+        <show_signature>false</show_signature>
+        <sms/>
+        <success_message/>
+        <sys_class_name>sys_sg_button</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:28</sys_created_on>
+        <sys_id>402f2dcb2f4a98100d4218acf699b652</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Button (Play)</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_button_402f2dcb2f4a98100d4218acf699b652</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:02:28</sys_updated_on>
+        <table>x_44900_golf_journ_play</table>
+        <take_value_from_field>false</take_value_from_field>
+        <type>write_back</type>
+        <use_overlay>false</use_overlay>
+        <write_back_action_item display_value="New (Play)">c82f2dcb2f4a98100d4218acf699b643</write_back_action_item>
+    </sys_sg_button>
+    <sys_translated_text action="delete_multiple" query="documentkey=402f2dcb2f4a98100d4218acf699b652"/>
+</record_update>

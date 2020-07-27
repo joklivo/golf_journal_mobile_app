@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="playID">2151e04d2f52dc100d4218acf699b67e</item_parameter>
+        <screen display_value="Play Result for Play">26e1684d2f52dc100d4218acf699b622</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 08:57:39</sys_created_on>
+        <sys_id>8c9720812f92dc100d4218acf699b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2151e04d2f52dc100d4218acf699b67e</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_8c9720812f92dc100d4218acf699b66f</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 08:57:39</sys_updated_on>
+        <ui_parameter display_value="playID">9f77ac412f92dc100d4218acf699b6e6</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

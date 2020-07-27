@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (Hole results)</name>
+        <query_condition table="x_44900_golf_journ_hole_results">sys_idSTARTSWITH{{Hole results sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Hole results sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:26</sys_created_on>
+        <sys_id>ab1fe9cb2f4a98100d4218acf699b699</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (Hole results)</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_ab1fe9cb2f4a98100d4218acf699b699</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:02:26</sys_updated_on>
+        <table>x_44900_golf_journ_hole_results</table>
+        <template>bunker={{Hole results bunker}}^fairway_hit={{Hole results fairway_hit}}^gir={{Hole results gir}}^gross_hole_score={{Hole results gross_hole_score}}^hcp_strokes={{Hole results hcp_strokes}}^hole={{Hole results hole}}^hole_result={{Hole results hole_result}}^name={{Hole results name}}^net_hole_score={{Hole results net_hole_score}}^ntb={{Hole results ntb}}^out={{Hole results out}}^play={{Hole results play}}^player={{Hole results player}}^putts={{Hole results putts}}^state={{Hole results state}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab1fe9cb2f4a98100d4218acf699b699"/>
+</record_update>

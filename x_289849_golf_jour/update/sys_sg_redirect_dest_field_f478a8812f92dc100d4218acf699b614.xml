@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="Go to Play result">7878a8812f92dc100d4218acf699b611</button>
+        <button_table>x_44900_golf_journ_play</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="playID">9f77ac412f92dc100d4218acf699b6e6</destination_ui_parameter>
+        <source_field>sys_id</source_field>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 09:01:32</sys_created_on>
+        <sys_id>f478a8812f92dc100d4218acf699b614</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>9f77ac412f92dc100d4218acf699b6e6</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_f478a8812f92dc100d4218acf699b614</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 09:04:06</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>
