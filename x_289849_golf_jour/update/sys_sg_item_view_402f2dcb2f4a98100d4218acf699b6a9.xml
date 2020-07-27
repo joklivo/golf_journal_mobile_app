@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Golf Journal Mobile App Play results">cc2f2dcb2f4a98100d4218acf699b6a7</data_item>
+        <dependency_fields>state-41928,play.start-45539,play.tournament-32753,play-7686,player.system_user.photo-52611,player-39952</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_ignore":true,"Id":41927,"Margin":{"Left":8},"TextColor":"#333e3f","TextAlignment":"Right","MaxLines":1,"Font":{"Weight":"regular","Size":10,"Name":"Font Awesome 5 Pro Regular"}},{"Type":"Text","studio_template_field_id":"E1","Id":41928,"Margin":{"Left":6,"Right":8,"Top":3,"Bottom":3},"Text":"PLACEHOLDER","CellId":"state","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}}],"Id":12259,"CornerRadius":2,"BackgroundColor":"#f1f1f1","Height":20,"Margin":{}},{"Type":"ViewGroup","Margin":{"Top":6},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"studio_template_field_id":"E2","Text":"${play.start}","TextColor":"#637274","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":45538},{"Type":"Text","studio_template_field_id":"E2","Margin":{"Left":4},"CellId":"play.start","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":45539}],"Id":12260},{"Type":"ViewGroup","Margin":{"Top":4},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"studio_template_field_id":"E3","Text":"${play.tournament}","TextColor":"#637274","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":32752},{"Type":"Text","studio_template_field_id":"E3","Margin":{"Left":4},"CellId":"play.tournament","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":32753}],"Id":12261},{"Type":"ViewGroup","Margin":{"Top":4},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"studio_template_field_id":"E4","Text":"${play}","TextColor":"#637274","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":7685},{"Type":"Text","studio_template_field_id":"E4","Margin":{"Left":4},"CellId":"play","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":7686}],"Id":12262},{"Type":"ViewGroup","Margin":{"Top":4},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"studio_template_field_id":"E5","Text":"${player}","TextColor":"#637274","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":39950},{"Type":"Image","studio_template_field_id":"E6","Id":52611,"CornerRadius":12,"Height":24,"Width":24,"Margin":{"Left":5},"CellId":"player.system_user.photo","Scaling":"Fill"},{"Type":"Text","studio_template_field_id":"E5","Margin":{"Left":4},"CellId":"player","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":39952}],"Id":12263}],"Id":28090,"studio_card_id":"d89e1d45c7600010215c2f3bf4c26051"}</item_view_json>
+        <name>Play results List Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:28</sys_created_on>
+        <sys_id>402f2dcb2f4a98100d4218acf699b6a9</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Play results List Screen Item View</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_item_view_402f2dcb2f4a98100d4218acf699b6a9</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 12:27:23</sys_updated_on>
+        <table>x_44900_golf_journ_play_results</table>
+        <ui_styles>76225e9b2f06d8100d4218acf699b6fe,f0d45a1f2f06d8100d4218acf699b61d</ui_styles>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=402f2dcb2f4a98100d4218acf699b6a9"/>
+</record_update>

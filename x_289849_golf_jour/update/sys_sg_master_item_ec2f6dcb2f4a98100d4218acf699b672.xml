@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order>-1</condition_order>
+        <datasource_table>x_44900_golf_journ_player</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Players">282f6dcb2f4a98100d4218acf699b66e</embedded_screen>
+        <item_view display_value="Player List Screen Item View">e82f6dcb2f4a98100d4218acf699b66b</item_view>
+        <name>Player master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:30</sys_created_on>
+        <sys_id>ec2f6dcb2f4a98100d4218acf699b672</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Player master_item</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_master_item_ec2f6dcb2f4a98100d4218acf699b672</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-21 09:10:11</sys_updated_on>
+    </sys_sg_master_item>
+</record_update>

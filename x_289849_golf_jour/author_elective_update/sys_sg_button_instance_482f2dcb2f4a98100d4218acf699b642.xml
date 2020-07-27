@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Play)">442f2dcb2f4a98100d4218acf699b641</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (Play)</name>
+        <order>10</order>
+        <parent>c42f2dcb2f4a98100d4218acf699b63d</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:27</sys_created_on>
+        <sys_id>482f2dcb2f4a98100d4218acf699b642</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Delete (Play)</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_button_instance_482f2dcb2f4a98100d4218acf699b642</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-24 06:30:01</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=482f2dcb2f4a98100d4218acf699b642"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_button_instance_482f2dcb2f4a98100d4218acf699b642</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Delete Swipe (Play)">442f2dcb2f4a98100d4218acf699b641</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Delete</label><location>leading_swipe</location><name>Delete (Play)</name><order>10</order><parent>c42f2dcb2f4a98100d4218acf699b63d</parent><parent_table>sys_sg_master_item</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-21 09:02:27</sys_created_on><sys_id>482f2dcb2f4a98100d4218acf699b642</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Delete (Play)</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_button_instance_482f2dcb2f4a98100d4218acf699b642</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-24 06:30:01</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=482f2dcb2f4a98100d4218acf699b642"/></record_update>]]></payload>
+        <payload_hash>-1641412519</payload_hash>
+        <record_name>Delete (Play)</record_name>
+        <reverted_from/>
+        <source>6b9e21cb2f4a98100d4218acf699b650</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-24 06:30:01</sys_created_on>
+        <sys_id>0409e88c2f1e1c100d4218acf699b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737f83a6b80000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-24 06:30:01</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>4c09e88c391e1c1015c4622fba86e977</update_guid>
+        <update_guid_history>4c09e88c391e1c1015c4622fba86e977:-1641412519,7b2f250fe24a9810e53d75b8ef267f10:-847535748</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-24 06:31:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>ada177b86d8642308eb25b97710ff040</sys_id>
+        <sys_metadata>482f2dcb2f4a98100d4218acf699b642</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Play)</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_482f2dcb2f4a98100d4218acf699b642</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_482f2dcb2f4a98100d4218acf699b642">0409e88c2f1e1c100d4218acf699b678</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-24 06:31:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

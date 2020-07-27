@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Hole result for particular Play</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Hole results for Play</name>
+        <query_condition table="x_44900_golf_journ_hole_results">play_result={{PlayResultID}}<item endquery="false" field="play_result" goto="false" newquery="false" operator="=" or="false" value="{{PlayResultID}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 11:31:16</sys_created_on>
+        <sys_id>96bacd092fd2dc100d4218acf699b625</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hole results for Play</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_data_item_96bacd092fd2dc100d4218acf699b625</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:31:44</sys_updated_on>
+        <table>x_44900_golf_journ_hole_results</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=96bacd092fd2dc100d4218acf699b625"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_data_item_96bacd092fd2dc100d4218acf699b625</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>Hole result for particular Play</description><group_by/><instance_relative_url_qc/><name>Hole results for Play</name><query_condition table="x_44900_golf_journ_hole_results">play_result={{PlayResultID}}<item endquery="false" field="play_result" goto="false" newquery="false" operator="=" or="false" value="{{PlayResultID}}"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-27 11:31:16</sys_created_on><sys_id>96bacd092fd2dc100d4218acf699b625</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Hole results for Play</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_data_item_96bacd092fd2dc100d4218acf699b625</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-27 11:31:44</sys_updated_on><table>x_44900_golf_journ_hole_results</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=96bacd092fd2dc100d4218acf699b625"/></record_update>]]></payload>
+        <payload_hash>-123133330</payload_hash>
+        <record_name>Hole results for Play</record_name>
+        <reverted_from/>
+        <source>6b9e21cb2f4a98100d4218acf699b650</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 11:31:44</sys_created_on>
+        <sys_id>45da01492fd2dc100d4218acf699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173900af6230000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:31:44</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>41dac90911d2dc102d55585b2c59873e</update_guid>
+        <update_guid_history>41dac90911d2dc102d55585b2c59873e:-123133330,d6bacd0967d2dc1072270edb158c0d27:-353487746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 11:33:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>7ce4fc057ff140288b747b4e7f99b310</sys_id>
+        <sys_metadata>96bacd092fd2dc100d4218acf699b625</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hole results for Play</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_96bacd092fd2dc100d4218acf699b625</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_96bacd092fd2dc100d4218acf699b625">45da01492fd2dc100d4218acf699b671</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:33:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

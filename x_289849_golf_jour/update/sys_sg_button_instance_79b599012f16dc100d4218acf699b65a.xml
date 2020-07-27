@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Go to Holes">691c01892fd2dc100d4218acf699b6d1</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Go to Holes</label>
+        <location>footer</location>
+        <name>Go to Holes</name>
+        <order>10</order>
+        <parent>002f2dcb2f4a98100d4218acf699b6ad</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 12:19:18</sys_created_on>
+        <sys_id>79b599012f16dc100d4218acf699b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Go to Holes</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_button_instance_79b599012f16dc100d4218acf699b65a</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 12:19:18</sys_updated_on>
+        <table>x_44900_golf_journ_play_results</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=79b599012f16dc100d4218acf699b65a"/>
+</record_update>

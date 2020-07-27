@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_style">
+    <sys_sg_ui_style action="DELETE">
+        <active>false</active>
+        <condition table="x_44900_golf_journ_play_results">state=active^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="active"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <field>state</field>
+        <item_vew/>
+        <item_view_element/>
+        <name>Play results form - active state</name>
+        <style>{"background_color":"#f0ad4e","font_color":"#f7f7f7"}</style>
+        <sys_class_name>sys_sg_ui_style</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-22 06:28:05</sys_created_on>
+        <sys_id>1c659e1f2f06d8100d4218acf699b61d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Play results form - active state</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_ui_style_1c659e1f2f06d8100d4218acf699b61d</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-22 06:41:48</sys_updated_on>
+        <table>x_44900_golf_journ_play_results</table>
+        <use_item_view_elements>false</use_item_view_elements>
+    </sys_sg_ui_style>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_ui_style_1c659e1f2f06d8100d4218acf699b61d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_style"><sys_sg_ui_style action="INSERT_OR_UPDATE"><active>false</active><condition table="x_44900_golf_journ_play_results">state=active^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="active"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><field>state</field><item_vew/><item_view_element/><name>Play results form - active state</name><style>{"background_color":"#f0ad4e","font_color":"#f7f7f7"}</style><sys_class_name>sys_sg_ui_style</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-22 06:28:05</sys_created_on><sys_id>1c659e1f2f06d8100d4218acf699b61d</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Play results form - active state</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_ui_style_1c659e1f2f06d8100d4218acf699b61d</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-22 06:41:48</sys_updated_on><table>x_44900_golf_journ_play_results</table><use_item_view_elements>false</use_item_view_elements></sys_sg_ui_style></record_update>]]></payload>
+        <payload_hash>-1051137741</payload_hash>
+        <record_name>Play results form - active state</record_name>
+        <reverted_from/>
+        <source>6b9e21cb2f4a98100d4218acf699b650</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-22 06:41:48</sys_created_on>
+        <sys_id>9588de9f2f06d8100d4218acf699b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1737541bae40000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-22 06:41:48</sys_updated_on>
+        <type>UI Style</type>
+        <update_guid>dd88de9f8006d8102aa244f2e7dd027a</update_guid>
+        <update_guid_history>dd88de9f8006d8102aa244f2e7dd027a:-1051137741,3f6812df6606d81009c064151ba053f3:-1388992816,c8e7d29faf06d810223a9fb688b0ec55:-1051137741,5ca7d69f4806d810a22809f8bdb3abb8:-1388992816,4377569fbb06d810d6c711bcce8a45bc:-59128889,a707de5fd906d810d1fbe0025fbffe2f:-1613770870,e9f6529f1206d8102453daa6453d06b0:289898553,9ab6d25fad06d810121381d38f31346c:-1401673746,a3a5565faf06d810da6329b3cbd8c841:-519323964,14659e1fe006d8107791ccdbec45421f:-828246427</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-22 06:42:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_style">sys_sg_ui_style</sys_db_object>
+        <sys_id>9b9b35da2b2e46909ab5721521cae900</sys_id>
+        <sys_metadata>1c659e1f2f06d8100d4218acf699b61d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Play results form - active state</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_style_1c659e1f2f06d8100d4218acf699b61d</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_style_1c659e1f2f06d8100d4218acf699b61d">9588de9f2f06d8100d4218acf699b67b</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-22 06:42:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

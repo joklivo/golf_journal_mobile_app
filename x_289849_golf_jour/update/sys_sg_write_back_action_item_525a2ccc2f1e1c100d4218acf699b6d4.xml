@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+	
+	var milestoneDate = new GlideDateTime( '2020-01-01' );
+	var playID = input.play;
+	var playGR = _getPlay( playID );
+	var startDate = new GlideDateTime( playGR.getValue( 'start' ) );
+	
+	var tournamentGR = playGR.tournament.getRefRecord();
+	var courseGR = tournamentGR.course.getRefRecord();
+	var par = courseGR.getValue( 'par' );
+	var numHoles = courseGR.getValue( 'num_holes' ); 
+	
+	var playWithHCP = playGR.getValue( 'with_hcp' );
+	var playMaxPlayingHCP = playGR.getValue( 'max_playing_hcp' );
+	var handicapAllowance = playGR.getValue( 'hcp_allowance' );
+	
+	var teeGR = playGR.tee.getRefRecord();
+	var sr = teeGR.getValue( 'sr' );
+	var cr = teeGR.getValue( 'cr' );
+	var tee = teeGR.getUniqueValue();
+	
+	var playerGR = _getPlayer();
+	var playerID = playerGR.getValue('sys_id');
+	var egaHCP = playerGR.getValue( 'ega_hcp' );
+	var whsHI = playerGR.getValue( 'whs_hi' );	
+	
+	var handicapBefore = _calculateHCPbefore( egaHCP, whsHI, startDate, milestoneDate  );
+	var coursePlayingHandicap = _calculateCourseAndPlayingHandicap( playWithHCP, milestoneDate,  startDate,  handicapBefore, numHoles, sr, cr, par, playMaxPlayingHCP, handicapAllowance );
+	var coursePlayingHandicapObj = JSON.parse( coursePlayingHandicap );
+	var courseHandicap = parseInt(Math.round( coursePlayingHandicapObj['courseHandicap'] ));
+	var playingHandicap = parseInt(Math.round( coursePlayingHandicapObj['playingHandicap'] ));
+	
+	var playResultGR = new GlideRecord( 'x_44900_golf_journ_play_results' );
+			playResultGR.addQuery( 'player', playerID );
+			playResultGR.addQuery( 'play', playID );
+			playResultGR.addQuery( 'state', 'active' );
+			playResultGR.setLimit(1);
+			playResultGR.query();
+		
+	if (!playResultGR.hasNext()) {
+			
+			playResultGR.initialize();
+			playResultGR.setValue( 'play', playID );
+			playResultGR.setValue( 'player', playerID );
+			playResultGR.setValue( 'state', 'active' );
+			playResultGR.setValue( 'hcp_before',   handicapBefore);
+			playResultGR.setValue( 'hcp_course', courseHandicap );
+			playResultGR.setValue( 'hcp_playing', playingHandicap );
+		
+			_createHoleResults(playResultGR.insert(), tee, playID, playerID, courseHandicap, numHoles);
+			
+	}
+
+})(input);
+
+	function _createHoleResults( playResultID, tee, play, player, courseHandicap, numHoles ) {
+		
+		var holeGR = new GlideRecord( 'x_44900_golf_journ_hole' );
+			holeGR.addQuery( 'tee', tee );
+			holeGR.query();
+		
+		while ( holeGR.next() ) {
+			var holeResultGR = new GlideRecord( 'x_44900_golf_journ_hole_results' );
+				holeResultGR.addQuery( 'hole', holeGR.getUniqueValue());
+				holeResultGR.addQuery( 'play', play );
+				holeResultGR.addQuery( 'player', player );
+				holeResultGR.addQuery( 'state', 'active');
+				holeResultGR.setLimit( 1 );
+				holeResultGR.query();
+			
+			if ( !holeResultGR.hasNext() ) {
+				holeResultGR.initialize();
+				holeResultGR.setValue( 'hole', holeGR.getUniqueValue() );
+				holeResultGR.setValue( 'play', play );
+				holeResultGR.setValue( 'player', player );
+				holeResultGR.setValue( 'state', 'active' );
+				holeResultGR.setValue( 'play_result', playResultID );
+				holeResultGR.setValue( 'hcp_strokes', _calculateReceivedStrokes( courseHandicap, numHoles, holeGR.getValue( 'stroke_index' ) ) );
+				holeResultGR.insert();
+			}
+		}
+		
+	}
+
+	/*
+	* _getPlayer - get Player based on logged user
+	*
+	* return {glideRecord}
+	*/
+	function _getPlayer() {
+		
+		var playerGR = new GlideRecord( 'x_44900_golf_journ_player' );
+			playerGR.get( 'system_user', gs.getUserID() );
+		
+		return playerGR;
+		
+	}
+
+	/*
+	* _getPlay - get Play glide record
+	*
+	* @param {string} playID - sys_id of play
+	* return {glideRecord}
+	*/
+	function _getPlay( playID ) {
+		
+		var playerGR = new GlideRecord( 'x_44900_golf_journ_play' );
+			playerGR.get( playID );
+		
+		return playerGR;
+		
+	}
+
+	/*
+	* _calculateHCPbefore
+	*
+	* @param {string} egaHCP
+	* @param {string} whsHI
+	* @param {string} startDate
+	*
+	* return {glideRecord}
+	*/
+	function _calculateHCPbefore( egaHCP, whsHI, startDate, milestoneDate ) {
+		
+		var tournamentDate = new GlideDateTime( startDate );
+			
+		if ( tournamentDate.compareTo( milestoneDate ) < 0 ){
+			return egaHCP;
+		} else {
+			return whsHI;
+		}
+		
+	}
+
+	function _calculateReceivedStrokes( courseHandicap, numHoles, strokeIndex ) {
+		
+		var receivedStrokes = ( courseHandicap / numHoles );
+		receivedStrokes = Math.floor( receivedStrokes );
+		
+		var additionalAttempt = courseHandicap % numHoles;
+		
+		if (  additionalAttempt > 0 && strokeIndex <= additionalAttempt) {
+			receivedStrokes += 1;
+		}
+		
+		return receivedStrokes;
+		
+	}
+
+	/*
+	* _calculateCourseAndPlayingHandicap - calculation of 'Course handicap' & 'Playing Handicap'
+	*
+	* return {string}
+	*/
+	function _calculateCourseAndPlayingHandicap( playWithHCP, milestoneDate,  startDate,  handicapBefore, numHoles, sr, cr, par,  playMaxPlayingHCP, handicapAllowance) {
+		
+		var answer = {
+			courseHandicap: '',
+			playingHandicap: ''
+		};
+		
+		var  playingHandicap;
+		var courseHandicap = _calculateCourseHandicap( milestoneDate, startDate,  handicapBefore, numHoles, sr, cr, par );
+		
+		if (  playWithHCP == false ) {
+			
+			playingHandicap = 0;
+			
+		} else if ( playMaxPlayingHCP != '' ) {
+		
+			if ( handicapBefore <= playMaxPlayingHCP ) {
+				
+				playingHandicap = ( courseHandicap * handicapAllowance / 100 );
+				
+			} else {
+				
+				var newCourseHCPforPlayingHCP = _calculateCourseHandicap( milestoneDate, startDate,  playMaxPlayingHCP, numHoles, sr, cr, par );
+				playingHandicap = ( newCourseHCPforPlayingHCP * handicapAllowance / 100 );
+			}
+   
+		} else {
+			
+			playingHandicap = ( courseHandicap * handicapAllowance / 100 );
+			
+		}
+	
+		answer.courseHandicap = courseHandicap;
+		answer.playingHandicap = playingHandicap;
+	
+		return JSON.stringify( answer );
+		
+	}
+
+	/*
+	* _calculateCourseHandicap
+	*
+	* @param {GlideDateTime} milestoneDate
+	* @param {GlideDateTime} playStarDate
+	* @param {float} handicapBefore
+	* @param {integer} numHoles
+	* @param {float} sr
+	* @param {float} cr
+	* @param {integer} par
+	*
+	* return {float} courseHandicap
+	*/
+	function _calculateCourseHandicap( milestoneDate, playStarDate,  handicapBefore, numHoles, sr, cr, par ) {
+		
+		var courseHandicap;
+		
+		if ( playStarDate.compareTo( milestoneDate ) >= 0 && numHoles == 18 ) {
+			
+			courseHandicap = ( handicapBefore * (sr / 113) ) + ( cr - par );
+			
+		} else if ( playStarDate.compareTo( milestoneDate ) >= 0 && numHoles == 9 ) {
+			
+			courseHandicap =  ( (handicapBefore / 2) * ( sr / 113) ) + ( cr - par );
+			
+		} else if ( playStarDate.compareTo( milestoneDate ) < 0 && handicapBefore <= 36 && numHoles == 18 ) {
+			
+			courseHandicap = ( handicapBefore * (sr / 113) ) + ( cr - par );
+			
+		} else if ( playStarDate.compareTo( milestoneDate ) < 0 && handicapBefore <= 36 && numHoles == 9 ) {
+			
+			courseHandicap =  ( (handicapBefore / 2) * ( sr / 113) ) + ( cr - par );
+			
+		} else if ( playStarDate.compareTo( milestoneDate ) < 0 && handicapBefore > 36 && numHoles == 18 ) {
+			
+			courseHandicap = ( 36 * (sr / 113) ) + ( cr - par );
+			courseHandicap = courseHandicap + ( handicapBefore - 36 ); 
+			
+		} else if ( playStarDate.compareTo( milestoneDate ) < 0 && handicapBefore > 36 && numHoles == 9 ) {
+			
+			courseHandicap =  ( (36 / 2) * ( sr / 113) ) + ( cr - par );
+			courseHandicap = ( handicapBefore / 2 ) + ( courseHandicap - 18 );
+			
+		}
+		
+		return courseHandicap;
+		
+	}]]></execution_script>
+        <name>Start Play Swipe (Plays)</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-24 06:36:31</sys_created_on>
+        <sys_id>525a2ccc2f1e1c100d4218acf699b6d4</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Start Play Swipe (Plays)</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_525a2ccc2f1e1c100d4218acf699b6d4</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:21:45</sys_updated_on>
+        <table>x_44900_golf_journ_play</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=525a2ccc2f1e1c100d4218acf699b6d4"/>
+</record_update>
