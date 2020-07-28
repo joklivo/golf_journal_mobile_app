@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">c71fa9cb2f4a98100d4218acf699b69c</embedded_screen>
-        <form display_value="Course Form Screen">c71fa9cb2f4a98100d4218acf699b69b</form>
+        <form display_value="List of courses">c71fa9cb2f4a98100d4218acf699b69b</form>
         <order>10</order>
         <sys_class_name>sys_sg_form_segment</sys_class_name>
         <sys_created_by>ivo</sys_created_by>

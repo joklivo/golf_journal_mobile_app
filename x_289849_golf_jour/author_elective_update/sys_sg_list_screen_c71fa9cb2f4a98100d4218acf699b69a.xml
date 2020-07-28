@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description>Golf Journal Mobile App Course</description>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Megaphone">7a1f21cb2f4a98100d4218acf699b65f</icon>
+        <name>List of courses</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-21 09:02:24</sys_created_on>
+        <sys_id>c71fa9cb2f4a98100d4218acf699b69a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>List of courses</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_list_screen_c71fa9cb2f4a98100d4218acf699b69a</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-28 06:54:15</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=c71fa9cb2f4a98100d4218acf699b69a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_list_screen_c71fa9cb2f4a98100d4218acf699b69a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description>Golf Journal Mobile App Course</description><dynamic_prefetch_count/><fetch_type>on_demand</fetch_type><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="icon-Megaphone">7a1f21cb2f4a98100d4218acf699b65f</icon><name>List of courses</name><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-21 09:02:24</sys_created_on><sys_id>c71fa9cb2f4a98100d4218acf699b69a</sys_id><sys_mod_count>3</sys_mod_count><sys_name>List of courses</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_list_screen_c71fa9cb2f4a98100d4218acf699b69a</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-28 06:54:15</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=c71fa9cb2f4a98100d4218acf699b69a"/></record_update>]]></payload>
+        <payload_hash>-75522137</payload_hash>
+        <record_name>List of courses</record_name>
+        <reverted_from/>
+        <source>f04a0f412fdadc100d4218acf699b60d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-28 06:54:15</sys_created_on>
+        <sys_id>8ee4d9952f1210500d4218acf699b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173943346fc0000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-28 06:54:15</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>86e4d9957b12105077d174783bf58d86</update_guid>
+        <update_guid_history>86e4d9957b12105077d174783bf58d86:-75522137,a3049555cf1210501af5ab4e4c54c646:120213366,e0839955a41210507ef9a28e08ddd3d1:1420228488,ab4a070552dadc107a35473dbbe9e792:0,ac2a43c1dfdadc108703cf1dc359ac34:-742002201,b91a0f81e7dadc10f9c8f3584a8343e9:0,de2f610f454a981001f893a08e898268:-359165195</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-28 07:04:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>00d3d66bfb9244ea8027a390eb8e85e4</sys_id>
+        <sys_metadata>c71fa9cb2f4a98100d4218acf699b69a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of courses</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_c71fa9cb2f4a98100d4218acf699b69a</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_c71fa9cb2f4a98100d4218acf699b69a">8ee4d9952f1210500d4218acf699b686</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-28 07:04:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

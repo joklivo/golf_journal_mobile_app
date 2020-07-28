@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2020-07-27 20:01:29</last_registered_on>
+        <last_registered_on>2020-07-28 05:57:10</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>ivo</sys_created_by>
         <sys_created_on>2020-07-22 08:53:44</sys_created_on>
         <sys_id>71b6ba532f86d8100d4218acf699b6df</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>eY4udLaj1B8:APA91bES5S5CukqHBZ6PwvE2uIorg1dAgWjOUcJqSxPvw86m1vrOGb_GtURJdCYAg6Wdm_3mvo74P_G0HqkdRozCqES4PmMr5xB_FwUndjCMt7r9oWd5NBYefpK7uk7GYE8_zeSVFQOk</sys_name>
         <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
         <sys_policy/>
@@ -15,7 +15,7 @@
         <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
         <sys_update_name>sys_push_notif_app_install_71b6ba532f86d8100d4218acf699b6df</sys_update_name>
         <sys_updated_by>ivo</sys_updated_by>
-        <sys_updated_on>2020-07-27 20:01:29</sys_updated_on>
+        <sys_updated_on>2020-07-28 05:57:10</sys_updated_on>
         <sys_user_id display_value="Ivo Jokl">84a264dc1bd51010c51f524f334bcbe3</sys_user_id>
         <token>eY4udLaj1B8:APA91bES5S5CukqHBZ6PwvE2uIorg1dAgWjOUcJqSxPvw86m1vrOGb_GtURJdCYAg6Wdm_3mvo74P_G0HqkdRozCqES4PmMr5xB_FwUndjCMt7r9oWd5NBYefpK7uk7GYE8_zeSVFQOk</token>
     </sys_push_notif_app_install>

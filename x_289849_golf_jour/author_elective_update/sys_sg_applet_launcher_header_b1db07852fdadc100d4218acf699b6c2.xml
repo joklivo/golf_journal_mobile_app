@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_header">
+    <sys_sg_applet_launcher_header action="DELETE">
+        <sys_class_name>sys_sg_applet_launcher_header</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 20:55:24</sys_created_on>
+        <sys_id>b1db07852fdadc100d4218acf699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Golf Journal Mobile App</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_header_b1db07852fdadc100d4218acf699b6c2</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 20:55:24</sys_updated_on>
+        <text>Golf Journal Mobile App</text>
+        <variables/>
+    </sys_sg_applet_launcher_header>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</application>
+        <file_path/>
+        <instance_id>a2214a2edb70e3c40e785d00cf9619e7</instance_id>
+        <instance_name>dev71531</instance_name>
+        <name>sys_sg_applet_launcher_header_b1db07852fdadc100d4218acf699b6c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_header"><sys_sg_applet_launcher_header action="INSERT_OR_UPDATE"><sys_class_name>sys_sg_applet_launcher_header</sys_class_name><sys_created_by>ivo</sys_created_by><sys_created_on>2020-07-27 20:55:24</sys_created_on><sys_id>b1db07852fdadc100d4218acf699b6c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Golf Journal Mobile App</sys_name><sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package><sys_policy/><sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope><sys_update_name>sys_sg_applet_launcher_header_b1db07852fdadc100d4218acf699b6c2</sys_update_name><sys_updated_by>ivo</sys_updated_by><sys_updated_on>2020-07-27 20:55:24</sys_updated_on><text>Golf Journal Mobile App</text><variables/></sys_sg_applet_launcher_header></record_update>]]></payload>
+        <payload_hash>102987132</payload_hash>
+        <record_name>Golf Journal Mobile App</record_name>
+        <reverted_from/>
+        <source>f04a0f412fdadc100d4218acf699b60d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 20:55:24</sys_created_on>
+        <sys_id>31db07852fdadc100d4218acf699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173920f03d90000001</sys_recorded_at>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 20:55:24</sys_updated_on>
+        <type>Header Title</type>
+        <update_guid>79db078543dadc10dbe3d7c1d12dfbc3</update_guid>
+        <update_guid_history>79db078543dadc10dbe3d7c1d12dfbc3:102987132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-27 20:55:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_header">sys_sg_applet_launcher_header</sys_db_object>
+        <sys_id>24ad86f31d874c668b3eac5e982c20e4</sys_id>
+        <sys_metadata>b1db07852fdadc100d4218acf699b6c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Golf Journal Mobile App</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_scope_delete display_value="">161cbe38735f4d5caf76903f4c89d2e1</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_header_b1db07852fdadc100d4218acf699b6c2</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_header_b1db07852fdadc100d4218acf699b6c2">31db07852fdadc100d4218acf699b6c4</sys_update_version>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-27 20:55:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

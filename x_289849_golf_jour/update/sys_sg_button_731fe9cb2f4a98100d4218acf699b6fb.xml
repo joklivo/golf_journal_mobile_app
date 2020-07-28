@@ -13,7 +13,7 @@
         <context>record</context>
         <description/>
         <destination_alp/>
-        <destination_screen display_value="Player">51b7d1cb2f0a98100d4218acf699b669</destination_screen>
+        <destination_screen display_value="">51b7d1cb2f0a98100d4218acf699b669</destination_screen>
         <destination_type>screen</destination_type>
         <external_browser>false</external_browser>
         <failure_message/>

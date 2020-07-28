@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_style">
+    <sys_sg_ui_style action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <field/>
+        <item_vew display_value="List of Courses Item View">d8e7d5192f1210500d4218acf699b601</item_vew>
+        <item_view_element>12259</item_view_element>
+        <name>The List of Courses</name>
+        <style>{"background_color":"#b5dedc"}</style>
+        <sys_class_name>sys_sg_ui_style</sys_class_name>
+        <sys_created_by>ivo</sys_created_by>
+        <sys_created_on>2020-07-28 07:15:40</sys_created_on>
+        <sys_id>5d9915992f1210500d4218acf699b606</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>The List of Courses</sys_name>
+        <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
+        <sys_update_name>sys_sg_ui_style_5d9915992f1210500d4218acf699b606</sys_update_name>
+        <sys_updated_by>ivo</sys_updated_by>
+        <sys_updated_on>2020-07-28 07:22:48</sys_updated_on>
+        <table>x_44900_golf_journ_course</table>
+        <use_item_view_elements>true</use_item_view_elements>
+    </sys_sg_ui_style>
+</record_update>

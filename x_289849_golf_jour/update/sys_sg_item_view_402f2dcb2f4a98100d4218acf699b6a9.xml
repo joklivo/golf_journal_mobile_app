@@ -9,14 +9,14 @@
         <sys_created_by>ivo</sys_created_by>
         <sys_created_on>2020-07-21 09:02:28</sys_created_on>
         <sys_id>402f2dcb2f4a98100d4218acf699b6a9</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Play results List Screen Item View</sys_name>
         <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
         <sys_update_name>sys_sg_item_view_402f2dcb2f4a98100d4218acf699b6a9</sys_update_name>
         <sys_updated_by>ivo</sys_updated_by>
-        <sys_updated_on>2020-07-27 12:27:23</sys_updated_on>
+        <sys_updated_on>2020-07-28 07:43:22</sys_updated_on>
         <table>x_44900_golf_journ_play_results</table>
         <ui_styles>76225e9b2f06d8100d4218acf699b6fe,f0d45a1f2f06d8100d4218acf699b61d</ui_styles>
     </sys_sg_item_view>
