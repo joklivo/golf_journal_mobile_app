@@ -6,7 +6,13 @@
 	var grossScore = input.gross_hole_score;
 		grossScore = parseInt(grossScore);
 	
-	var holeResultGR = new GlideRecord('x_44900_golf_journ_hole_results');
+	var putts = input.putts;
+		putts = parseInt(putts);
+	
+	if (putts > (grossScore - 1)) {
+		gs.addErrorMessage('Putts cannot be ' + putts + ' based on Gross score value!');
+	} else {
+		var holeResultGR = new GlideRecord('x_44900_golf_journ_hole_results');
 	
 	if (holeResultGR.get(input.sys_id)) {
 	
@@ -97,13 +103,19 @@
 				holeResultGR.setValue('fairway_hit', input.fairway_hit);	
 		}
 		
-		holeResultGR.setValue('gir', input.gir);
+		if ((grossScore - putts) <= (par-2)) {
+				holeResultGR.setValue('gir', 'yes');
+		} else {
+			holeResultGR.setValue('gir', 'no');
+		}
+		
 		holeResultGR.setValue('out', input.out);
 		holeResultGR.setValue('putts', input.putts);
 		holeResultGR.setValue('water', input.water);
 		holeResultGR.setValue('bunker', input.bunker);
 	
 		holeResultGR.update();
+	}
 	}
  
 })(input);]]></execution_script>
@@ -115,14 +127,14 @@
         <sys_created_by>ivo</sys_created_by>
         <sys_created_on>2020-07-21 09:02:27</sys_created_on>
         <sys_id>7b1fe9cb2f4a98100d4218acf699b6e5</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Edit (Hole results)</sys_name>
         <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
         <sys_update_name>sys_sg_write_back_action_item_7b1fe9cb2f4a98100d4218acf699b6e5</sys_update_name>
         <sys_updated_by>ivo</sys_updated_by>
-        <sys_updated_on>2020-07-27 20:09:43</sys_updated_on>
+        <sys_updated_on>2020-07-29 07:39:52</sys_updated_on>
         <table>x_44900_golf_journ_hole_results</table>
         <template/>
         <type>script</type>

@@ -5,7 +5,7 @@
         <auto_redirection>false</auto_redirection>
         <button_table_field_name/>
         <cancel_label/>
-        <condition table="x_44900_golf_journ_hole_results">state=active^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="active"/>
+        <condition table="x_44900_golf_journ_play_results">state=active^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="active"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_script>state=='active'</condition_script>
@@ -18,16 +18,16 @@
         <destination_screen/>
         <destination_type>screen</destination_type>
         <external_browser>false</external_browser>
-        <failure_message/>
+        <failure_message>The Play cannot be completed</failure_message>
         <field_name/>
-        <jump_to_previous>true</jump_to_previous>
+        <jump_to_previous>false</jump_to_previous>
         <jump_to_screen>false</jump_to_screen>
         <link_label/>
         <link_url/>
         <mail_address/>
         <mail_content/>
         <mail_subject/>
-        <name>Complete Hole result</name>
+        <name>Complete Play</name>
         <phone_number/>
         <phone_type>cellular</phone_type>
         <preconditions>none</preconditions>
@@ -37,27 +37,27 @@
         <select_current_record>false</select_current_record>
         <show_acknowledgement>false</show_acknowledgement>
         <show_confirmation>false</show_confirmation>
-        <show_refresh_on_previous>true</show_refresh_on_previous>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
         <show_signature>false</show_signature>
         <sms/>
-        <success_message/>
+        <success_message>The Play was successfully completed</success_message>
         <sys_class_name>sys_sg_button</sys_class_name>
         <sys_created_by>ivo</sys_created_by>
         <sys_created_on>2020-07-27 19:53:50</sys_created_on>
         <sys_id>504dbe092f9adc100d4218acf699b623</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Complete Hole result</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Complete Play</sys_name>
         <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
         <sys_update_name>sys_sg_button_504dbe092f9adc100d4218acf699b623</sys_update_name>
         <sys_updated_by>ivo</sys_updated_by>
-        <sys_updated_on>2020-07-27 20:04:55</sys_updated_on>
-        <table>x_44900_golf_journ_hole_results</table>
+        <sys_updated_on>2020-07-28 12:46:52</sys_updated_on>
+        <table>x_44900_golf_journ_play_results</table>
         <take_value_from_field>false</take_value_from_field>
         <type>write_back</type>
         <use_overlay>false</use_overlay>
-        <write_back_action_item display_value="Complete Hole result">9e5d7a092f9adc100d4218acf699b61e</write_back_action_item>
+        <write_back_action_item display_value="Complete Play">9e5d7a092f9adc100d4218acf699b61e</write_back_action_item>
     </sys_sg_button>
     <sys_translated_text action="delete_multiple" query="documentkey=504dbe092f9adc100d4218acf699b623"/>
 </record_update>
