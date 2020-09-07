@@ -5,21 +5,22 @@
         <group_by/>
         <instance_relative_url_qc/>
         <name>Play Result for Play</name>
-        <query_condition table="x_44900_golf_journ_play_results">play={{playID}}<item endquery="false" field="play" goto="false" newquery="false" operator="=" or="false" value="{{playID}}"/>
+        <query_condition table="x_44900_golf_journ_play_results">play={{playID}}^player.system_userDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="play" goto="false" newquery="false" operator="=" or="false" value="{{playID}}"/>
+            <item endquery="false" field="player.system_user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </query_condition>
         <query_condition_script/>
         <sys_class_name>sys_sg_data_item</sys_class_name>
         <sys_created_by>ivo</sys_created_by>
         <sys_created_on>2020-07-27 08:30:13</sys_created_on>
         <sys_id>5e41a80d2f52dc100d4218acf699b6f3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Play Result for Play</sys_name>
         <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
         <sys_update_name>sys_sg_data_item_5e41a80d2f52dc100d4218acf699b6f3</sys_update_name>
         <sys_updated_by>ivo</sys_updated_by>
-        <sys_updated_on>2020-07-27 08:30:32</sys_updated_on>
+        <sys_updated_on>2020-07-28 08:42:29</sys_updated_on>
         <table>x_44900_golf_journ_play_results</table>
     </sys_sg_data_item>
     <sys_translated_text action="delete_multiple" query="documentkey=5e41a80d2f52dc100d4218acf699b6f3"/>

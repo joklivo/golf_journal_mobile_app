@@ -5,7 +5,9 @@
         <auto_redirection>true</auto_redirection>
         <button_table_field_name/>
         <cancel_label/>
-        <condition/>
+        <condition table="x_44900_golf_journ_hole_results">state=active^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="active"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <condition_script/>
         <condition_type>declarative</condition_type>
         <confirm_label/>
@@ -43,14 +45,14 @@
         <sys_created_by>ivo</sys_created_by>
         <sys_created_on>2020-07-21 09:02:27</sys_created_on>
         <sys_id>731fe9cb2f4a98100d4218acf699b6fb</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Edit Button (Hole results)</sys_name>
         <sys_package display_value="Golf Journal Mobile App" source="x_289849_golf_jour">279e21cb2f4a98100d4218acf699b64e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Journal Mobile App">279e21cb2f4a98100d4218acf699b64e</sys_scope>
         <sys_update_name>sys_sg_button_731fe9cb2f4a98100d4218acf699b6fb</sys_update_name>
         <sys_updated_by>ivo</sys_updated_by>
-        <sys_updated_on>2020-07-27 18:56:21</sys_updated_on>
+        <sys_updated_on>2020-07-28 12:17:28</sys_updated_on>
         <table>x_44900_golf_journ_hole_results</table>
         <take_value_from_field>false</take_value_from_field>
         <type>write_back</type>
